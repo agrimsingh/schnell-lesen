@@ -105,10 +105,6 @@ body {
   text-align: left;
 }
 
-.word-focus {
-  color: var(--accent);
-}
-
 .reader-meta {
   width: 100%;
   display: flex;
@@ -307,6 +303,12 @@ button.primary {
 
 .status-error {
   color: #ff7b7b;
+}
+
+.error-message {
+  font-size: 24px;
+  text-align: center;
+  color: var(--muted);
 }
 
 .keyboard-hint {
